@@ -1,0 +1,24 @@
+[user]
+	name = SergeyXP
+	email = s.pusthotin@gmail.com
+[alias]
+	#llog --oneline --branches --remotes --graph --max-count=20
+	lg = log --oneline --all --graph --max-count=20 --date-order --all
+	st = status
+	mg = merge --no-ff
+	cm = commit
+	cml = commit -C HEAD@{0}
+	sw = switch
+	adl = add --all
+[pager]
+	log = false
+[core]
+	autocrlf = true
+	quotepath = off
+[safe]
+	directory = D:/TFS/Ulbi TV
+[push]
+	autoSetupRemote=true
+[i18n]
+	#commitencoding = cp1251
+	#logoutputencoding = cp866
